@@ -1,0 +1,12 @@
+# VSCODE
+.vscode/
+
+# Development
+.dev/
+mydata/
+
+# Movie
+*.gif
+
+# Image
+data/*/*.png

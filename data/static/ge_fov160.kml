@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <gx:Tour>
+    <name>fisheye_160</name>
+    <gx:Playlist>
+      <gx:FlyTo>
+        <gx:duration>0.000000</gx:duration>
+        <gx:flyToMode>smooth</gx:flyToMode>
+        <Camera>
+          <longitude>139.791677</longitude>
+          <latitude>35.667387</latitude>
+          <altitude>-35.546807</altitude>
+          <heading>180.000000</heading>
+          <tilt>180</tilt>
+          <roll>0</roll>
+          <altitudeMode>absolute</altitudeMode>
+          <gx:horizFov>160.000000</gx:horizFov>
+        </Camera>
+      </gx:FlyTo>
+    </gx:Playlist>
+  </gx:Tour>
+</kml>
