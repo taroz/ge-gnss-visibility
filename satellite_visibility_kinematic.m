@@ -84,7 +84,7 @@ for i=1:v.NumFrames
 
     %% plot LOS/NLOS satellite
     % compute obstacle mask
-    immask = mask_fisheye(imfish, imopensky);
+    immask = mask_fisheye(imfish, imopensky, 20);
 
     % show obstacle mask
     oim = image(255*immask);
