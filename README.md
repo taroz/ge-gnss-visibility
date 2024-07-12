@@ -6,9 +6,15 @@
 # Vehicle Driving Data
 - Virtual fisheye video generated from GNSS data mounted on the vehicle included in the dataset
 
-![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/fisheye.gif?raw=true)
-![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/fisheye_satellite.gif?raw=true)
-![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/fisheye_satellite_nlos.gif?raw=true)
+<p align="center">
+  <img width="460" src="https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/fisheye.gif?raw=true">
+</p>
+<p align="center">
+  <img width="460" src="https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/fisheye_satellite.gif?raw=true">
+</p>
+<p align="center">
+  <img width="460" src="https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/fisheye_satellite_nlos.gif?raw=true">
+</p>
 
 # Requirements
 - MATLAB (>R2022a)
@@ -22,36 +28,39 @@
 - Clone or download **ge-gnss-visibility**
 
 ## Fisheye Image Generation
-1. Run `generate_kml_kinematic.m` or `generate_kml_static.m`
-  - `ge_fov160.kml` is generated
+### 1. Run `generate_kml_kinematic.m` or `generate_kml_static.m`
+- `ge_fov160.kml` is generated
 
-2. Open `ge_fov160.kml` in Google Earth Pro
-    - Check `Photorealistic` and `Terrain` in Layers
-    ![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap1.jpg?raw=true)
+### 2. Open `ge_fov160.kml` in Google Earth Pro
+- Check `Photorealistic` and `Terrain` in Layers
 
-3. Tools->Movie Maker
-  - Select `ge_fov160`
-  - Enter the name of the file to save to
-  - Video parameter: `Custom`
-  - Picture size: `1200 x 1200`
-  - Frames per second: `1.0`
-  - Output configuration
-    - For kinematic data: `MJPEG (.mov)`
-    - For static data: `JPEG image sequence (.jpg)`
-  ![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap2.jpg?raw=true) 
+![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap1.jpg?raw=true)
 
-4. Click `Create Movie`
-  - Usually this process takes quite a while!
-    - In my experience, running Google Earth in a Linux (Ubuntu) environment is much faster than running it in Windows.
-    - On Windows, it is faster to use OpenGL instead of DirectX as the graphics mode for Google Earth.
-    - The type of graphics card you have can also affect performance.
-  ![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap3.jpg?raw=true) 
+### 3. Tools->Movie Maker
+- Select `ge_fov160`
+- Enter the name of the file to save to
+- Video parameter: `Custom`
+- Picture size: `1200 x 1200`
+- Frames per second: `1.0`
+- Output configuration
+  - For kinematic data: `MJPEG (.mov)`
+  - For static data: `JPEG image sequence (.jpg)`
 
-5. Run `satellite_visibility_kinematic.m` or `satellite_visibility_static.m`
-  - Virtual fisheye image/movie is generated
+![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap2.jpg?raw=true) 
+
+### 4. Click `Create Movie`
+- Usually this process takes quite a while!
+  - In my experience, running Google Earth in a Linux (Ubuntu) environment is much faster than running it in Windows.
+  - On Windows, it is faster to use OpenGL instead of DirectX as the graphics mode for Google Earth.
+  - The type of graphics card you have can also affect performance.
+
+![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap3.jpg?raw=true) 
+
+### 5. Run `satellite_visibility_kinematic.m` or `satellite_visibility_static.m`
+- Virtual fisheye image/movie is generated
 
 # Citation
-If you use this project in your research or paper, please cite the following article \[[link](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/IONPNT2015.pdf)\].
+If you use this project in your research or paper, please cite the following article \[[link](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/IONPNT2015.pdf?raw=true)\].
 ```
 @inproceedings{suzuki2015simulation,
   title={Simulation of GNSS satellite availability in urban environments using Google Earth},
