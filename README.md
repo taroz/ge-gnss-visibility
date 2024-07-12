@@ -1,6 +1,7 @@
 # GNSS satellite visibility simulation from Google Earth
-- This project generates virtual fisheye zenith images from Google Earth at arbitrary locations and automatically determines GNSS visibility. 
-- This can be used to evaluate GNSS multipath in urban areas and as a reference for LOS/NLOS satellites.
+- This project generates virtual fisheye zenith images from Google Earth at arbitrary locations and automatically determines GNSS visibility
+- This can be used to evaluate GNSS multipath in urban areas and as a reference for LOS/NLOS satellites
+
 ![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/static.png?raw=true)
 
 # Vehicle Driving Data
@@ -34,10 +35,10 @@
 ### 2. Open `ge_fov160.kml` in Google Earth Pro
 - Check `Photorealistic` and `Terrain` in Layers
 
-![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap1.jpg?raw=true)
+<img width="600" src="https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap1.jpg?raw=true">
 
 ### 3. Tools->Movie Maker
-- Select `ge_fov160`
+- Select tour `fisheye_fov160`
 - Enter the name of the file to save to
 - Video parameter: `Custom`
 - Picture size: `1200 x 1200`
@@ -50,9 +51,9 @@
 
 ### 4. Click `Create Movie`
 - Usually this process takes quite a while!
-  - In my experience, running Google Earth in a Linux (Ubuntu) environment is much faster than running it in Windows.
-  - On Windows, it is faster to use OpenGL instead of DirectX as the graphics mode for Google Earth.
-  - The type of graphics card you have can also affect performance.
+  - In my experience, running Google Earth in a Linux (Ubuntu) environment is much faster than running it in Windows
+  - On Windows, it is faster to use OpenGL instead of DirectX as the graphics mode for Google Earth
+  - The type of graphics card you have can also affect performance
 
 ![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap3.jpg?raw=true) 
 
