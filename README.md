@@ -25,7 +25,7 @@
 # How to use
 ## Setup
 - Install [Google Earth Pro](https://www.google.com/earth/about/versions/#earth-pro)
-- Clone [MatRTKLIB](https://github.com/taroz/MatRTKLIB) and add to path in MATLAB
+- Clone or download [MatRTKLIB](https://github.com/taroz/MatRTKLIB) and add to path in MATLAB
 - Clone or download **ge-gnss-visibility**
 
 ## Fisheye Image Generation
