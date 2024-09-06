@@ -19,6 +19,7 @@
 
 # Requirements
 - MATLAB (>R2022a)
+  - Image Processing Toolbox (for satellite_visibility_xxx.m) 
 - [Google Earth Pro](https://www.google.com/earth/about/versions/#earth-pro)
 - [MatRTKLIB](https://github.com/taroz/MatRTKLIB)
 
