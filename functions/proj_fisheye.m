@@ -29,7 +29,7 @@ r = scale*polyval(p, el); % distance from image center (pixcel)
 
 % Convert to image coordinate
 mx = r.*cosd(-az+90) + scale*camera.xc;
-my = camera.hight - (r.*sind(-az+90) + scale*camera.yc);
+my = scale*camera.hight - (r.*sind(-az+90) + scale*camera.yc);
 
 % Check inside of image or not
 inidx = find(mx>=0 & mx<scale*camera.width & my>=0 & my<scale*camera.hight);
