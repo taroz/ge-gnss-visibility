@@ -2,7 +2,9 @@
 - This project generates virtual fisheye zenith images from Google Earth at arbitrary locations and automatically determines GNSS visibility
 - This can be used to evaluate GNSS multipath in urban areas and as a reference for LOS/NLOS satellites
 
-![](https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/static.png?raw=true)
+<img width="640" src="https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/static.png?raw=true">
+
+<img width="460" src="https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/fisheye_merge.gif?raw=true">
 
 # Vehicle Driving Data
 - Virtual fisheye video generated from GNSS data mounted on the vehicle included in the dataset
@@ -35,6 +37,7 @@
 
 ### 2. Open `ge_fov160.kml` in Google Earth Pro
 - Check `Photorealistic` and `Terrain` in Layers
+- **Note: To start Movie Maker, you must exit the tour mode. Please press the X button on the slider in the lower left to exit tour mode.**
 
 <img width="600" src="https://github.com/taroz/Misc/blob/master/data/ge-gnss-visibility/cap1.jpg?raw=true">
 
